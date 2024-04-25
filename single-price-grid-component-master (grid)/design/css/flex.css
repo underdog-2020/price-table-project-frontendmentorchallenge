@@ -1,0 +1,35 @@
+/* aligning container to the center */
+
+#containment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sub flexbox */
+#sub{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: flex-start;
+}
+#sub h3{
+    margin-left: 50px;
+}
+
+#sub button{
+    margin-left: 50px;
+}
+
+#sub p{
+    margin-left: 50px;
+}
+
+/* the screen is the width of a mobile phone*/
+@media (max-width:375px){
+    #Container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

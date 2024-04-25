@@ -1,0 +1,77 @@
+
+/*container styles*/
+.container{
+    font-size: 16px;
+    background-color: whitesmoke;
+    font-family: 'Karla', sans-serif;
+}
+
+.container p{
+    color:hsl(204, 43%, 93%)
+}
+
+/* long container styles*/
+#long-container h2{
+    color:hsl(179, 62%, 43%);
+}
+
+#long-container h3{
+    color: hsl(71, 73%, 54%);
+}
+
+#long-container p{
+    color:hsl(218, 22%, 67%);
+}
+
+/* why us container styles*/
+#Why-us{
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(218, 22%, 67%);;
+}
+
+#Why-us h3{
+    color:white;
+    margin-left: 50px;
+}
+
+#Why-us p{
+    margin-left: 50px;
+}
+
+/* sub container styles*/
+#sub{
+    background-color: #008B8B;
+    color: white;
+}
+
+
+#sub button{
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#sub button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+#sub button:active{
+    background-color: greenyellow;
+    color: white;
+    border: solid black 1px;
+}
+
+#subscription .pan{
+    font-weight: 400;
+    font-size: 50px;
+  }
+
+#subscription #month{
+    color: hsl(218, 22%, 67%);
+    margin-left: 10px;
+}
